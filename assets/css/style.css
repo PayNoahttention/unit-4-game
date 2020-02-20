@@ -1,0 +1,5 @@
+/* Front End Masters Course said it's good to add this for simplifying box sizes. */
+
+* {
+    box-sizing: border-box;
+}
