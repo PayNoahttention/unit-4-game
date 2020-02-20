@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crystal Game</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Crystal Game</title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Crystal Game</h1>
+            <!-- BEGIN! -->
+            <div class="page">
+                <div id="userStats">
+                    <p>Wins: <strong><span id="numWins"></span></strong></p>
+                    <p>Losses: <strong><span id="numLosses"></span></strong></p>
+                </div>
+
+                <p>Make a sum of <span id="targetSum"></span>!</p>
+                <p>Your sum is <strong><span id="currentSum"></span></strong>.</p>
+                
+                <div class="clearfix">
+                    <img class="crystals" src="C:\Users\NSoli\Google Drive\Bootcamp\Homework\Week4\Crystal-Game\unit-4-game\assets\images\blue-crystal.png">
+                    <img class="crystals" src="C:\Users\NSoli\Google Drive\Bootcamp\Homework\Week4\Crystal-Game\unit-4-game\assets\images\green-crystal.jpg">
+                    <img class="crystals" src="C:\Users\NSoli\Google Drive\Bootcamp\Homework\Week4\Crystal-Game\unit-4-game\assets\images\purple-crystal.png" alt="purple-crystal">
+                    <img class="crystals" src="C:\Users\NSoli\Google Drive\Bootcamp\Homework\Week4\Crystal-Game\unit-4-game\assets\images\red-crystal.png" alt="red-crystal">
+
+                    <br>
+
+                    <div class="directions">
+                        <h2>Directions:</h2>
+                        
+                        <p>Above you see 4 crystals. Each with a varying value.</p>
+                        <p>You must mine the crystals in a way that makes you rich beyond your wildest dreams!</p>
+                        <p>To do so you must click each crystal until you match the number being shown.</p>
+                        <p>Now mine your way to riches untold!</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
 </html>
